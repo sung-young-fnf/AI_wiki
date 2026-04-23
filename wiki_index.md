@@ -12,22 +12,32 @@
 | 키워드 | `AI 스크랩`, `AI 기사`, `LLM 지식베이스`, `카테고리 인덱스`, `article wiki`, `AI wiki` |
 | 관련문서 | [[AI_Coding_Tools Index]], [[LLM_Models Index]], [[AI_Engineering Index]], [[Knowledge_Systems Index]], [[Local_AI_Infra Index]], [[Productivity_PKM Index]], [[Dev_General Index]], [[Industry_Trends Index]], [[Career_SelfDev Index]] |
 
-AI/개발 주제 스크랩 681개의 최상위 라우터. 사용자 질문의 키워드로 **대분류 Index**를 찾고, 거기서 다시 **하위 Index** 또는 **개별 파일**로 이동한다.
+AI/개발 주제 스크랩 681개의 최상위 라우터.
+
+> **📖 Index는 이 wiki의 "표지"다.**
+> 어떤 질문이든 반드시 **Index부터** 거친 뒤에만 `books/` 안의 원본 기사를 열어라.
+>
+> **탐색 경로**:
+> `wiki_index.md` (이 파일) → `{대분류} Index.md` → (필요 시) `{하위} Index.md` → `books/*.md`
+>
+> 각 Index에는 해당 폴더의 **파일 목록·요약·키워드**가 이미 표로 정리되어 있다. `books/` 를 직접 grep하거나 파일명으로 추측해 접근하지 말고, **Index 테이블에서 먼저 관련 파일을 매칭한 뒤 해당 원본 하나만** 열어라 (토큰 낭비 없이 정확히 답 가능).
+>
+> 질문이 여러 카테고리에 걸치면 [[AI_Coding_Tools Index]]·[[Knowledge_Systems Index]] 등 **여러 Index를 동시에 훑고**, 각 Index 파일 목록에서 후보를 추린 뒤 본문 접근.
 
 ## 카테고리 9개 (총 679개 분류 + _pending 2)
 
-| 대분류 | 파일 수 | 구조 | 핵심 키워드 |
+| 대분류 | 파일 수 | 구조 | 설명 |
 |---|---|---|---|
-| [[AI_Coding_Tools Index]] | 144 | **4 하위** | Claude Code, OpenCode, MCP 서버, OpenClaw |
-| [[LLM_Models Index]] | 60 | **6 하위** | Gemma 4, Claude Mythos, GPT-5, Qwen, Nano Banana, Karpathy |
-| [[AI_Engineering Index]] | 103 | **5 하위** | 프롬프트 캐싱, 컨텍스트 엔지니어링, 하네스, SDD, AI PM |
-| [[Knowledge_Systems Index]] | 67 | 평면 | RAG, Graph RAG, PageIndex, 지식 그래프, 온톨로지, FEA |
-| [[Local_AI_Infra Index]] | 46 | 평면 | Ollama, LM Studio, vLLM, Mac Silicon, 96GB 블랙웰, 양자화 |
-| [[Productivity_PKM Index]] | 48 | 평면 | Obsidian, Notion, 제2의 뇌, Karpathy LLM Wiki, Cotypist |
-| [[Dev_General Index]] | 126 | **5 하위** | Python 라이브러리, SQL, React, Docker, Rust |
-| [[Industry_Trends Index]] | 35 | 평면 | Anthropic 인수, 해고, AI 거품, NemoClaw, 보조금 시대 |
-| [[Career_SelfDev Index]] | 50 | 평면 | 자기계발, 책 추천, 부업, 30일 실행 시스템, 새벽 4시 기상 |
-| _pending/books/ | 2 | (재수집 필요) | 손상 파일 (Medium 사이드바만 캡처됨) |
+| [[AI_Coding_Tools Index]] | 144 | **4 하위** | **AI 코딩 도구·CLI 에이전트 사용법** — Claude Code 설정·스킬·워크플로우, OpenCode/Cursor/Codex 등 경쟁 도구, MCP 서버 큐레이션, OpenClaw·Hermes 등 자율 에이전트 플랫폼 |
+| [[LLM_Models Index]] | 60 | **6 하위** | **LLM 모델 출시·비교·벤치마크·아키텍처 이론** — Claude·Gemini·Gemma·GPT·Qwen·Kimi·DeepSeek 등 모델 분석, Nano Banana 등 Vision 모델, Karpathy nanoGPT·JEPA 같은 구현/원리 |
+| [[AI_Engineering Index]] | 103 | **5 하위** | **AI를 어떻게 쓸지에 대한 기법·패턴·원리** — 프롬프트/컨텍스트 엔지니어링, 에이전트 하네스·제어 패턴, 바이브 코딩/SDD(Spec Kit·GSD), AI 기초 개념, AI 제품 관리 |
+| [[Knowledge_Systems Index]] | 67 | 평면 | **RAG·지식 그래프·온톨로지·임베딩** — AI가 외부 지식에 접근하는 방법. PageIndex·HiChunk·Fixed Entity Architecture·Palantir Foundry·시맨틱 레이어·그래프 메모리 |
+| [[Local_AI_Infra Index]] | 46 | 평면 | **로컬 LLM 실행·하드웨어·런타임** — Ollama/LM Studio/vLLM, Apple Silicon(Mac Mini·MacBook)·GPU(RTX·96GB 블랙웰·DGX Spark), 양자화(TurboQuant·4bit) |
+| [[Productivity_PKM Index]] | 48 | 평면 | **개인 지식 관리(PKM)·제2의 뇌·생산성 도구** — Obsidian·Notion·OneNote·Google Keep, Karpathy LLM Wiki 패턴, Cotypist·macOS 유틸 |
+| [[Dev_General Index]] | 126 | **5 하위** | **AI 무관 일반 개발** — Python 라이브러리 시리즈, 데이터 엔지니어링(SQL/Polars/DuckDB), 웹·프론트엔드(HTML5/React), 인프라(Docker/k8s), 언어·터미널 도구(Rust·R·tmux) |
+| [[Industry_Trends Index]] | 35 | 평면 | **AI 기업·시장·정책·사회 영향 뉴스** — Anthropic·OpenAI·Google·Meta·NVIDIA 등 기업 동향, M&A(Bun 인수), 해고(아마존·오라클), AI 거품·보조금 시대 |
+| [[Career_SelfDev Index]] | 50 | 평면 | **자기계발·독서·투자·커리어·라이프** — AI 시대 개인 성장, 책 추천, 부업(솔로프리너·30일 실행 시스템), 건강/습관, 프레젠테이션·커뮤니케이션 |
+| _pending/books/ | 2 | (재수집) | 손상 파일 (Medium 사이드바만 캡처된 스크랩 오류 — 원본 URL 복원 필요) |
 
 ## 하위 카테고리 (총 20개)
 
@@ -96,15 +106,6 @@ article_wiki/
     ├── Knowledge_Systems Index.md
     └── books/*.md
 ```
-
-## 에스컬레이션
-
-| 상황 | 대응 |
-|---|---|
-| 카테고리 분류 오류 발견 | @윤형도 보고 → Phase 4 재분류 |
-| 새 카테고리 후보 발견 | `_pending/books/` 로 일단 이동 후 5개 모이면 신설 |
-| 손상 파일 (재수집 필요) | `_pending/books/` 의 2개 — 원본 URL에서 재수집 |
-| 검색 노이즈 많음 | 키워드 정규화 (Phase 5에서 동의어 merge) |
 
 ## 변경 이력
 
