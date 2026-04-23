@@ -20,10 +20,10 @@ AI 코딩 도구·CLI 에이전트의 사용법·설정·기능 분석. Claude C
 
 | 사용자 의도 | 이동할 하위 Index | 파일 수 |
 |---|---|---|
-| Claude Code, CLAUDE.md, Skills, 서브에이전트, Routines, btw/dream/fork/rewind, Statusline, SSH, Boris Cherny | [[Claude_Code Index]] | 84 |
-| OpenCode, Cursor, Codex, Mistral Vibe, MiniMax CLI, cmux, Aider, Claw Code, gstack, agent-browser, Perplexity Computer | [[Other_CLIs Index]] | 20 |
-| MCP 서버 큐레이션, GitHub MCP, Filesystem MCP, Figma MCP, NotebookLM MCP, DevOps용, 주식 데이터용, 8가지/12가지 MCP 시리즈 | [[MCP_Servers Index]] | 12 |
-| OpenClaw 시리즈, Hermes Agent, Paperclip, NemoClaw, Clawdbot, Cowork, OpenFang, NanoClaw, 자율 에이전트 플랫폼 | [[Agent_Platforms Index]] | 28 |
+| **Claude Code 본체 기능·설정·워크플로우** — CLAUDE.md, Skills, 서브에이전트, Routines, btw/dream/fork/rewind, Statusline, SSH, Boris Cherny의 모범 사례 | [[Claude_Code Index]] | 84 |
+| **Claude Code 대체/경쟁 CLI 도구** — OpenCode, Cursor, Codex, Mistral Vibe, MiniMax CLI, cmux, Aider, Claw Code, gstack, agent-browser, Perplexity Computer | [[Other_CLIs Index]] | 20 |
+| **MCP 서버 큐레이션·리뷰** — GitHub MCP, Filesystem MCP, Figma MCP, NotebookLM MCP, DevOps용, 주식 데이터용, 8/12가지 MCP 시리즈 | [[MCP_Servers Index]] | 12 |
+| **자율형 에이전트 플랫폼** — OpenClaw 시리즈, Hermes Agent, Paperclip, NemoClaw, Clawdbot, Cowork, OpenFang, NanoClaw (게이트웨이·멀티 에이전트) | [[Agent_Platforms Index]] | 28 |
 
 ## 관련 카테고리
 
