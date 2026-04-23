@@ -14,7 +14,7 @@
 
 ## 개요
 
-개인 지식 관리(PKM), 제2의 뇌, 생산성 도구 — Obsidian, Notion, Karpathy LLM Wiki, macOS 유틸.
+개인 지식 관리(PKM), 생산성 도구 — Obsidian, Notion, Karpathy LLM Wiki, macOS 유틸.
 
 ## 파일 목록 (48개)
 
