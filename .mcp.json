@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "outline-mcp": {
+      "type": "http",
+      "url": "https://orbit-mcp-api.fnf.co.kr/api/projects/384ed580-f055-4e68-8986-a9dbf5f8b067/subscriptions/d4f21468-8460-491d-b247-eac51b5d46dc/mcp"
+    }
+  }
+}
