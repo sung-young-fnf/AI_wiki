@@ -4,7 +4,7 @@
 
 ## 바로 시작하기
 
-- **어디부터 봐야 하나?** → [`wiki_index.md`](./wiki_index.md) (9개 대분류 라우팅 테이블)
+- **어디부터 봐야 하나?** → [`ArticleScrap Platform Index.md`](<./ArticleScrap Platform Index.md>) (9개 대분류 라우팅 테이블)
 - **전체 기사 목록이 필요하다** → [`summary_table.md`](./summary_table.md) (681행, 각 행 = 파일명·요약·키워드·카테고리)
 - **특정 기사의 원본 본문** → `{카테고리}/books/*.md` (평면) 또는 `{카테고리}/{하위}/books/*.md` (비대 카테고리)
 
@@ -12,20 +12,20 @@
 
 ```
 article_wiki/
-├── wiki_index.md              ← 최상위 라우터 (여기서 시작)
+├── ArticleScrap Platform Index.md              ← 최상위 라우터 (여기서 시작)
 ├── summary_table.md           ← 681행 종합 표 (fulltext 검색 진입점)
 ├── _category_spec.md          ← 카테고리 정의·분류 기준
 │
 ├── (비대 4개 — 하위 분류 보유)
-│   AI_Coding_Tools/  LLM_Models/  AI_Engineering/  Dev_General/
+│   AI Coding Tools/  LLM Models/  AI Engineering/  Dev General/
 │   ├── {대분류} Index.md      ← 하위 카테고리 라우팅 허브
 │   └── {하위}/
 │       ├── {하위} Index.md    ← 파일 목록 + 요약 + 키워드
 │       └── books/*.md         ← 원본 기사
 │
 ├── (평면 5개 — 하위 없음)
-│   Knowledge_Systems/  Local_AI_Infra/  Productivity_PKM/
-│   Industry_Trends/    Career_SelfDev/
+│   Knowledge Systems/  Local AI Infra/  Productivity PKM/
+│   Industry Trends/    Career SelfDev/
 │   ├── {대분류} Index.md      ← 파일 목록 + 요약 + 키워드
 │   └── books/*.md
 │
@@ -36,22 +36,22 @@ article_wiki/
 
 | 대분류 | 파일 | 구조 | 담는 것 |
 |---|---|---|---|
-| [AI_Coding_Tools](./AI_Coding_Tools/) | 144 | 4 하위 | Claude Code, OpenCode, MCP 서버, OpenClaw·Hermes 등 CLI 에이전트 플랫폼 |
-| [LLM_Models](./LLM_Models/) | 60 | 6 하위 | Claude/Gemini/Gemma/GPT/Qwen·Kimi·DeepSeek 출시·벤치, Vision 모델, 아키텍처 이론 |
-| [AI_Engineering](./AI_Engineering/) | 103 | 5 하위 | 프롬프트·컨텍스트 엔지니어링, 하네스 패턴, 바이브 코딩/SDD, AI 기초, 제품 관리 |
-| [Knowledge_Systems](./Knowledge_Systems/) | 67 | 평면 | RAG, Graph RAG, PageIndex, 지식 그래프, 온톨로지, 시맨틱 레이어 |
-| [Local_AI_Infra](./Local_AI_Infra/) | 46 | 평면 | Ollama·LM Studio·vLLM, Apple Silicon·GPU, 양자화, 로컬 LLM 실행 |
-| [Productivity_PKM](./Productivity_PKM/) | 48 | 평면 | Obsidian·Notion·제2의 뇌, Karpathy LLM Wiki, Cotypist |
-| [Dev_General](./Dev_General/) | 126 | 5 하위 | Python 라이브러리, SQL/Polars/DuckDB, React/HTML5, Docker/k8s, Rust/R |
-| [Industry_Trends](./Industry_Trends/) | 35 | 평면 | 기업 뉴스·M&A·해고, AI 거품, NemoClaw, 보조금 시대 |
-| [Career_SelfDev](./Career_SelfDev/) | 50 | 평면 | 자기계발, 책 추천, 투자, 부업, 새벽 4시 기상, 30일 실행 시스템 |
+| [AI Coding Tools](<./AI Coding Tools/>) | 144 | 4 하위 | Claude Code, OpenCode, MCP 서버, OpenClaw·Hermes 등 CLI 에이전트 플랫폼 |
+| [LLM Models](<./LLM Models/>) | 60 | 6 하위 | Claude/Gemini/Gemma/GPT/Qwen·Kimi·DeepSeek 출시·벤치, Vision 모델, 아키텍처 이론 |
+| [AI Engineering](<./AI Engineering/>) | 103 | 5 하위 | 프롬프트·컨텍스트 엔지니어링, 하네스 패턴, 바이브 코딩/SDD, AI 기초, 제품 관리 |
+| [Knowledge Systems](<./Knowledge Systems/>) | 67 | 평면 | RAG, Graph RAG, PageIndex, 지식 그래프, 온톨로지, 시맨틱 레이어 |
+| [Local AI Infra](<./Local AI Infra/>) | 46 | 평면 | Ollama·LM Studio·vLLM, Apple Silicon·GPU, 양자화, 로컬 LLM 실행 |
+| [Productivity PKM](<./Productivity PKM/>) | 48 | 평면 | Obsidian·Notion·제2의 뇌, Karpathy LLM Wiki, Cotypist |
+| [Dev General](<./Dev General/>) | 126 | 5 하위 | Python 라이브러리, SQL/Polars/DuckDB, React/HTML5, Docker/k8s, Rust/R |
+| [Industry Trends](<./Industry Trends/>) | 35 | 평면 | 기업 뉴스·M&A·해고, AI 거품, NemoClaw, 보조금 시대 |
+| [Career SelfDev](<./Career SelfDev/>) | 50 | 평면 | 자기계발, 책 추천, 투자, 부업, 새벽 4시 기상, 30일 실행 시스템 |
 
 ## 검색하는 방법
 
 ### 1) Index부터 탐색 (사람용)
-1. [`wiki_index.md`](./wiki_index.md) 열기
+1. [`ArticleScrap Platform Index.md`](<./ArticleScrap Platform Index.md>) 열기
 2. 본인 질문 키워드를 라우팅 테이블에서 찾고 대분류 Index로 이동
-3. 비대 카테고리(AI_Coding_Tools 등)는 하위 Index로 한 번 더 이동
+3. 비대 카테고리(AI Coding Tools 등)는 하위 Index로 한 번 더 이동
 4. 파일 목록 표에서 요약·키워드 보고 원본 기사로 점프
 
 ### 2) 키워드 fulltext 검색 (LLM/도구용)
@@ -65,11 +65,11 @@ article_wiki/
 
 | 공용 키워드 | 분기 |
 |---|---|
-| `Claude Code` | 사용법 → AI_Coding_Tools · 시장 영향 → Industry_Trends |
-| `Gemma 4` | 모델 분석 → LLM_Models · 로컬 실행 → Local_AI_Infra |
-| `RAG` | 원리·구축 → Knowledge_Systems · 도구로 만들기 → AI_Coding_Tools |
-| `MCP` | 서버 리뷰 → AI_Coding_Tools/MCP_Servers · 설계 논쟁 → AI_Engineering |
-| `Obsidian` | PKM → Productivity_PKM · CLI 개발 → Dev_General |
+| `Claude Code` | 사용법 → AI Coding Tools · 시장 영향 → Industry Trends |
+| `Gemma 4` | 모델 분석 → LLM Models · 로컬 실행 → Local AI Infra |
+| `RAG` | 원리·구축 → Knowledge Systems · 도구로 만들기 → AI Coding Tools |
+| `MCP` | 서버 리뷰 → AI Coding Tools/MCP Servers · 설계 논쟁 → AI Engineering |
+| `Obsidian` | PKM → Productivity PKM · CLI 개발 → Dev General |
 
 ## 기여 방법
 
@@ -112,11 +112,11 @@ article_wiki/
 | 최종수정 | `YYYY-MM-DD` |
 | 문서ID | `IX-AW-NN` (대분류) / `IX-AW-NN-MM` (중분류) |
 | 키워드 | 검색용 고유어 10~20개 |
-| 관련문서 | `[[wiki_index]]`, `[[상위 Index]]`, `[[관련 하위 Index]]` |
+| 관련문서 | `[[ArticleScrap Platform Index]]`, `[[상위 Index]]`, `[[관련 하위 Index]]` |
 
 ## 참고 문서
 
-- [`wiki_index.md`](./wiki_index.md) — 최상위 라우터
+- [`ArticleScrap Platform Index.md`](<./ArticleScrap Platform Index.md>) — 최상위 라우터
 - [`_category_spec.md`](./_category_spec.md) — 카테고리 분류 기준 (Phase 2 세션용)
 - [`CLAUDE.md`](./CLAUDE.md) — 병렬 세션 작업 가이드 (기여자 + AI용)
 - [`AGENTS.md`](./AGENTS.md) — 에이전트 가이드 (OpenCode/Codex 등 호환)
